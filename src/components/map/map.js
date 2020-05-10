@@ -9,18 +9,27 @@ import tel from '../../img/png/тел copy.png'
 import {NavLink} from "react-router-dom";
 
 class Map extends React.Component {
+    /*codmap = () => {
+        ymaps.ready(init);
+        function init() {
+            const codmap = new ymaps.Map("map", {
+                center: [],
+                zoom: []
+            });
+        }
+    }*/
     render() {
         return (
             <body>
             <div className="rightHalf">
                 <div className="mainWindow">
-                    <div className="header">
+                    <div className="headerMap">
                         <div className="layer"><img src={layer} alt="/"/></div>
                         <ul className="menu">
                             <li><NavLink to="/">BONUS PROGRAM</NavLink></li>
                             <li><NavLink to="/">BONUS SHOP</NavLink></li>
                             <li><NavLink to="/map">MAP</NavLink></li>
-                            <li><NavLink to="/pers">PERSONAL INFORMATION</NavLink></li>
+                            <li><NavLink to="/">PERSONAL INFORMATION</NavLink></li>
                         </ul>
                         <div className="setting">
                             <NavLink to="/"><img className="setting" src={setting} alt="/"/></NavLink>
@@ -32,6 +41,11 @@ class Map extends React.Component {
                             <NavLink to="/"><img src={speaker} alt=""/></NavLink>
                         </div>
                     </div>
+                    <div className="titleMap">
+                        <h1>GOLDEN HOOKAHS</h1>
+                        <h2>ADVERTISING</h2>
+                    </div>
+                    <div className="codMap"></div>
                     <div className="footer">
                         <div className="logoMain">
                             <img className="logo" src={logo} alt=""/>
@@ -63,8 +77,72 @@ class Map extends React.Component {
                             <NavLink to="/"><img src="" alt=""/></NavLink>
                         </div>
                         <div className="online"></div>
-                        <span className="nikName">Tim Kaleniuk</span>
-                        <span className="status">premium</span>
+                        <span className="nikNameMap">Tim Kaleniuk</span>
+                        <span className="statusMap">premium</span>
+                    </div>
+                </div>
+                <div className="listHookahs">
+                    <div className="scrollList">
+                        <div className="hookahsBlock1">
+                            <div className="nameHookahs">
+                                <span>GOLDEN HOOKAHS</span>
+                                <span>HOOKAHS</span>
+                            </div>
+                            <div className="infoText">
+                                <p>Bolshaya Andronievskaya street, 23 8 <br/>
+                                    Floor, attic; end entrance <br/>
+                                    Moscow, Russia, 109147</p>
+                            </div>
+                            <div className="ratingArea1">
+                                <input type="radio" id="star1" name="rating" value="1"/>
+                                <label htmlFor="star1" title="Оценка 1"></label>
+                                <input type="radio" id="star2" name="rating" value="2"/>
+                                <label htmlFor="star2" title="Оценка 2"></label>
+                                <input type="radio" id="star3" name="rating" value="3"/>
+                                <label htmlFor="star3" title="Оценка 3"></label>
+                            </div>
+                            <div className="infoHookahs">
+                                <span>electronic hookahs</span>
+                                <span>12</span>
+                            </div>
+                            <div className="telInfo">
+                                <img className="tel" src={tel} alt=""/>
+                                <span>+7 495 162-67-62</span>
+                            </div>
+                            <div>
+                                <button>order a hookah</button>
+                            </div>
+                        </div>
+                        <div className="hookahsBlock2">
+                            <div className="nameHookahs">
+                                <span>MIDLE HOOKAHS</span>
+                                <span>HOOKAHS</span>
+                            </div>
+                            <div className="infoText">
+                                <p>Bolshaya Andronievskaya street, 23 8 <br/>
+                                    Floor, attic; end entrance <br/>
+                                    Moscow, Russia, 109147</p>
+                            </div>
+                            <div className="ratingArea2">
+                                <input type="radio" id="star1" name="rating" value="1"/>
+                                <label htmlFor="star1" title="Оценка 1"></label>
+                                <input type="radio" id="star2" name="rating" value="2"/>
+                                <label htmlFor="star2" title="Оценка 2"></label>
+                                <input type="radio" id="star3" name="rating" value="3"/>
+                                <label htmlFor="star3" title="Оценка 3"></label>
+                            </div>
+                            <div className="infoHookahs">
+                                <span>electronic hookahs</span>
+                                <span>12</span>
+                            </div>
+                            <div className="telInfo">
+                                <img className="tel" src={tel} alt=""/>
+                                <span>+7 495 162-67-62</span>
+                            </div>
+                            <div className="order">
+                                <button>order a hookah</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

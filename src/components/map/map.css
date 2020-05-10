@@ -44,24 +44,43 @@ body .rightHalf {
     float: right;
 }
 
-.header {
-    position: relative;
-    display: block;
-    width: 1280px;
-    height: 260px;
-}
-
-.header .layer img {
+.headerMap .layer img {
     position: absolute;
     top: 0px;
     left: 100px;
-    width: 100%;
-    height: 100%;
+    width: 1270px;
+    height: 265px;
 }
 
+.headerMap {
+    position: relative;
+    margin-left: 36px;
+    height: 140px;
+}
 
+.headerMap .menu {
+    position: relative;
+    display: block;
+    float: left;
+    top: 35px;
+}
 
-.header .setting {
+.menu li {
+    position: relative;
+    display: inline-block;
+    margin-left: 125px;
+    float: left;
+}
+
+.menu li a {
+    font-size: 20px;
+    line-height: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.headerMap .setting {
     position: relative;
     display: block;
     float: left;
@@ -69,7 +88,7 @@ body .rightHalf {
     left: 18px;
 }
 
-.header .radio {
+.headerMap .radio {
     position: relative;
     display: block;
     float: left;
@@ -86,12 +105,43 @@ body .rightHalf {
     color: #ffffff;
 }
 
-.header .speaker {
+.headerMap .speaker {
     position: relative;
     display: block;
     float: left;
     top: 10px;
     left: 80px;
+}
+
+.titleMap {
+    position: relative;
+    display: block;
+}
+
+.titleMap h1 {
+    position: relative;
+    display: block;
+    font-size: 45px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.titleMap h2 {
+    position: relative;
+    display: block;
+    font-size: 26px;
+    line-height: 5px;
+    color: #ffffff;
+    font-weight: normal;
+    top: 30px;
+    text-align: center;
+}
+
+.codMap {
+    width: 1270px;
+    height: 720px;
 }
 
 .footer {
@@ -214,60 +264,218 @@ p {
     left: 142px;
 }
 
-.account .nikName {
+.account .nikNameMap {
     position: relative;
     display: inline;
     font-size: 18px;
     line-height: 4px;
     color: #ffffff;
     top: 125px;
-    left: 55px;
+    left: 137px;
 }
 
-.account .status {
+.account .statusMap {
     position: relative;
     display: inline;
     font-size: 15px;
     line-height: 3px;
     color: #ffffff;
     top: 145px;
-    left: -45px;
+    left: 35px;
 }
 
-.account .menu {
+.listHookahs {
     position: relative;
-    display: inline;
-    font-size: 16px;
-    line-height: 3px;
-    color: #ffffff;
-    left: 240px;
+    display: block;
+    height: 750px;
 }
 
-.brick {
+.hookahsBlock1 {
+    position: relative;
+    display: block;
+    height: 270px;
+    top: 30px;
+    left: 70px;
+}
+
+.nameHookahs {
+    height: 50px;
+}
+
+.hookahsBlock1 .nameHookahs span:nth-child(1) {
+    display: block;
+    height: 19px;
+    font-size: 24px;
+    line-height: 5px;
+    color: #ffffff;
+}
+
+.hookahsBlock1 .nameHookahs span:nth-child(2) {
+    display: block;
+    height: 15px;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+
+.hookahsBlock1 .infoText p {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: left;
+    height: 50px;
+    top: -10px;
+}
+
+.hookahsBlock1 .ratingArea1 input:checked ~ label,
+#reviewStars-input label,
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+    background: url('../../../src/img/png/zvezda.png') no-repeat;
+}
+
+.hookahsBlock1 .ratingArea1 {
+    height: 30px;
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    float: left;
+}
+
+.hookahsBlock1 .ratingArea1 input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.hookahsBlock1 .ratingArea1 input:checked ~ label {
+    background-position: 0 -19px;
+    height: 20px;
+    width: 20px;
+}
+
+.hookahsBlock1 .ratingArea1 label {
+    background-position: 0 0;
+    height: 20px;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.hookahsBlock1 .ratingArea1 label:hover,
+.ratingArea1 label:hover ~ label {
+    background-position: 0 -19px;
+    height: 20px;
+    width: 20px;
+}
+
+.infoHookahs {
+    position: relative;
+    height: 25px;
+    top: 30px;
+}
+
+.hookahsBlock1 .infoHookahs span:nth-child(1) {
     position: absolute;
     display: block;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
+    float: left;
+}
+
+.hookahsBlock1 .infoHookahs span:nth-child(2) {
+    position: relative;
+    display: block;
+    font-size: 26px;
+    line-height: 5px;
+    color: #ffffff;
+    margin-left: 185px;
+}
+
+.hookahsBlock1 .telInfo {
+    position: relative;
+    display: block;
     top: 35px;
-    left: 330px;
+    height: 50px;
 }
 
-.brick .rectangle:nth-child(odd) {
+.hookahsBlock1 .telInfo img {
     position: relative;
-    display: block;
-    width: 33px;
-    height: 5px;
-    border: 1px solid;
-    border-radius: 2px;
-    background-color: #ffffff;
-    margin-top: 2px;
+
 }
 
-.brick .rectangle:nth-child(2) {
+.hookahsBlock1 .order {
     position: relative;
     display: block;
-    width: 33px;
-    height: 4px;
-    border: 1px solid;
-    border-radius: 2px;
-    background-color: #ffffff;
-    margin-top: 2px;
+    height: 50px;
+    top: 30px;
+}
+
+.telInfo span {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
+}
+
+.hookahsBlock2 .ratingArea2 input:checked ~ label,
+#reviewStars-input label,
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+    background: url('../../../src/img/png/zvezda.png') no-repeat;
+}
+
+.hookahsBlock2 .ratingArea2 {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    float: left;
+}
+
+.hookahsBlock2 .ratingArea2 input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.hookahsBlock2 .ratingArea2 input:checked ~ label {
+    background-position: 0 -17px;
+    height: 20px;
+    width: 20px;
+}
+
+.hookahsBlock2 .ratingArea2 label {
+    background-position: 0 0;
+    height: 20px;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.hookahsBlock2 .ratingArea2 label:hover,
+.ratingArea2 label:hover ~ label {
+    background-position: 0 -17px;
+    height: 20px;
+    width: 20px;
 }
