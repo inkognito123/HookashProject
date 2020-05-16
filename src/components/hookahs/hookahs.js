@@ -1,7 +1,7 @@
 import React from "react";
 import './hookahs.css';
 import '../../fonts/stylesheet.css';
-import layer from '../../img/jpg/Layer 5.jpg';
+import layer from '../../img/jpg/Layer7.jpg';
 import setting from '../../img/png/SETTINGS_48x48-32.png';
 import speaker from '../../img/png/qqq.png'
 import logo from '../../img/png/logo-ramsmobile.png'

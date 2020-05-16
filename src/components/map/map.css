@@ -49,7 +49,7 @@ body .rightHalf {
     top: 0px;
     left: 100px;
     width: 1270px;
-    height: 265px;
+    height: 400px;
 }
 
 .headerMap {
@@ -140,32 +140,36 @@ body .rightHalf {
 }
 
 .codMap {
+    position: relative;
+    top: 110px;
+    left: 136px;
     width: 1270px;
-    height: 720px;
+    height: 600px;
 }
 
-.footer {
+.footerMap {
     position: relative;
     display: table;
     width: 100%;
-    top: 20px;
+    height: 60px;
+    top: 140px;
 }
 
-.footer .logoMain {
+.footerMap .logoMain {
     position: relative;
     display: inline-block;
     width: 22%;
     float: left;
 }
 
-.footer p {
+.footerMap p {
     position: relative;
     display: inline-block;
     width: 55%;
     float: left;
 }
 
-.footer .infoTel {
+.footerMap .infoTel {
     position: relative;
     display: inline-block;
     width: 20%;
@@ -408,13 +412,18 @@ p {
 .hookahsBlock1 .telInfo {
     position: relative;
     display: block;
-    top: 35px;
+    top: 30px;
     height: 50px;
 }
 
 .hookahsBlock1 .telInfo img {
     position: relative;
+    left: -85px;
+}
 
+.telInfo span {
+    left: 70px;
+    top: -15px;
 }
 
 .hookahsBlock1 .order {
@@ -430,6 +439,29 @@ p {
     font-size: 20px;
     line-height: 4px;
     color: #ffffff;
+}
+
+.order button {
+    position: relative;
+    display: block;
+    width: 225px;
+    padding: 12px 9px 12px 9px;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+
+.order button a {
+    font-size: 18px;
+    line-height: 4px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hookahsBlock2 {
+    position: relative;
+    display: block;
+    height: 270px;
+    margin-top: 30px;
 }
 
 .hookahsBlock2 .ratingArea2 input:checked ~ label,
@@ -478,4 +510,102 @@ p {
     background-position: 0 -17px;
     height: 20px;
     width: 20px;
+}
+
+.hookahsBlock2 {
+    position: relative;
+    display: block;
+    height: 270px;
+    top: 30px;
+    left: 70px;
+}
+
+.nameHookahs {
+    height: 50px;
+}
+
+.hookahsBlock2 .nameHookahs span:nth-child(1) {
+    display: block;
+    height: 19px;
+    font-size: 24px;
+    line-height: 5px;
+    color: #ffffff;
+}
+
+.hookahsBlock2 .nameHookahs span:nth-child(2) {
+    display: block;
+    height: 15px;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+
+.hookahsBlock2 .infoText p {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: left;
+    height: 50px;
+    top: -10px;
+}
+
+.infoHookahs {
+    position: relative;
+    height: 25px;
+    top: 30px;
+}
+
+.hookahsBlock2 .infoHookahs span:nth-child(1) {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
+    float: left;
+}
+
+.hookahsBlock2 .infoHookahs span:nth-child(2) {
+    position: relative;
+    display: block;
+    font-size: 26px;
+    line-height: 5px;
+    color: #ffffff;
+    margin-left: 185px;
+}
+
+.hookahsBlock2 .telInfo {
+    position: relative;
+    display: block;
+    top: 30px;
+    height: 50px;
+}
+
+.hookahsBlock2 .telInfo img {
+    position: relative;
+    left: 5px;
+}
+
+.telInfo span {
+    left: 70px;
+    top: -15px;
+}
+
+.hookahsBlock2 .order {
+    position: relative;
+    display: block;
+    height: 50px;
+    top: 30px;
+}
+
+.telInfo span {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 4px;
+    color: #ffffff;
 }

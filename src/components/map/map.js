@@ -1,23 +1,44 @@
 import React from "react";
 import './map.css';
 import '../../fonts/stylesheet.css';
-import layer from '../../img/jpg/Layer 5.jpg';
+import layer from '../../img/jpg/Layer7.jpg'
 import setting from '../../img/png/SETTINGS_48x48-32.png';
 import speaker from '../../img/png/qqq.png'
 import logo from '../../img/png/logo-ramsmobile.png'
 import tel from '../../img/png/тел copy.png'
+import logotip from '../../img/png/logotip.png'
 import {NavLink} from "react-router-dom";
+import {YMaps, Map, ListBox, ListBoxItem, Placemark} from 'react-yandex-maps';
 
-class Map extends React.Component {
-    /*codmap = () => {
-        ymaps.ready(init);
-        function init() {
-            const codmap = new ymaps.Map("map", {
-                center: [],
-                zoom: []
-            });
-        }
-    }*/
+
+const mapState = {center: [55.741570, 37.677226], zoom: 18, controls: []};
+
+const hookahs = [
+    {
+        data: {content: 'GOLDEN HOOKAHS'},
+        options: { selectOnClick: false },
+        coords: [55.741686, 37.676396],
+    },
+    {
+        data: {content: 'MIDDLE HOOKAHS'},
+        options: { selectOnClick: false },
+        coords: [55.741745, 37.677646],
+    },
+    {
+        data: {content: 'ROBOHOOKAHS'},
+        options: { selectOnClick: false },
+        coords: [55.741029, 37.677697],
+    },
+];
+
+
+class Mapp extends React.Component {
+    state = mapState;
+
+    onItemClick = coords => {
+        this.setState({center: coords});
+    };
+
     render() {
         return (
             <body>
@@ -45,8 +66,24 @@ class Map extends React.Component {
                         <h1>GOLDEN HOOKAHS</h1>
                         <h2>ADVERTISING</h2>
                     </div>
-                    <div className="codMap"></div>
-                    <div className="footer">
+                    <div className="codMap">
+                        <YMaps>
+                            <Map state={this.state} width="100%" height="100%">
+
+                                <ListBox data={{content: 'Choose hookahs'}}>
+                                    {hookahs.map(hookahs =>
+                                        <ListBoxItem
+                                            data={hookahs.data}
+                                            options={hookahs.options}
+                                            onClick={() => this.onItemClick(hookahs.coords)}
+                                            key={hookahs.data.content}
+                                        />
+                                    )}
+                                </ListBox>
+                            </Map>
+                        </YMaps>;
+                    </div>
+                    <div className="footerMap">
                         <div className="logoMain">
                             <img className="logo" src={logo} alt=""/>
                             <span className="promo">RAMSIDER</span>
@@ -109,13 +146,13 @@ class Map extends React.Component {
                                 <img className="tel" src={tel} alt=""/>
                                 <span>+7 495 162-67-62</span>
                             </div>
-                            <div>
-                                <button>order a hookah</button>
+                            <div className="order">
+                                <button><NavLink className="nameButton" to="/hook">ORDER A HOOKAHS</NavLink></button>
                             </div>
                         </div>
                         <div className="hookahsBlock2">
                             <div className="nameHookahs">
-                                <span>MIDLE HOOKAHS</span>
+                                <span>MIDDLE HOOKAHS</span>
                                 <span>HOOKAHS</span>
                             </div>
                             <div className="infoText">
@@ -124,12 +161,12 @@ class Map extends React.Component {
                                     Moscow, Russia, 109147</p>
                             </div>
                             <div className="ratingArea2">
-                                <input type="radio" id="star1" name="rating" value="1"/>
-                                <label htmlFor="star1" title="Оценка 1"></label>
-                                <input type="radio" id="star2" name="rating" value="2"/>
-                                <label htmlFor="star2" title="Оценка 2"></label>
-                                <input type="radio" id="star3" name="rating" value="3"/>
-                                <label htmlFor="star3" title="Оценка 3"></label>
+                                <input type="radio" id="star4" name="rating" value="4"/>
+                                <label htmlFor="star4" title="Оценка 4"></label>
+                                <input type="radio" id="star5" name="rating" value="5"/>
+                                <label htmlFor="star5" title="Оценка 5"></label>
+                                <input type="radio" id="star6" name="rating" value="6"/>
+                                <label htmlFor="star6" title="Оценка 6"></label>
                             </div>
                             <div className="infoHookahs">
                                 <span>electronic hookahs</span>
@@ -140,7 +177,7 @@ class Map extends React.Component {
                                 <span>+7 495 162-67-62</span>
                             </div>
                             <div className="order">
-                                <button>order a hookah</button>
+                                <button><NavLink className="nameButton" to="/">ORDER A HOOKAHS</NavLink></button>
                             </div>
                         </div>
                     </div>
@@ -151,4 +188,4 @@ class Map extends React.Component {
     }
 }
 
-export default Map;
+export default Mapp;

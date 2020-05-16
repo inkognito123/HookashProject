@@ -177,7 +177,7 @@ class PersAcc extends React.Component {
                     <div className="inputMessage">
                         <form action="">
                             <input type="url" placeholder="MESSAGE...."/>
-                            <button>SEND A MESSAGE</button>
+                            <button><NavLink className="nameButton" to="/">SEND A MESSAGE</NavLink></button>
                         </form>
                     </div>
                 </div>
