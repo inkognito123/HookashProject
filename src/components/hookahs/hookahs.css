@@ -112,28 +112,108 @@ body .rightHalf {
     left: 80px;
 }
 
-.footer {
+.allInfoHookahs {
+    position: relative;
+    display: table;
+    height: 700px;
+    top: 150px;
+    width: 100%;
+}
+
+.allInfoHookahs .scrollInfo {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    float: left;
+}
+
+.nameHookah {
+    position: relative;
+    top: 220px;
+    left: 150px;
+}
+
+.nameHookah h2 {
+    font-size: 45px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.advertising {
+    position: relative;
+    top: 260px;
+    left: 154px;
+}
+
+.advertising h3 {
+    font-size: 26px;
+    line-height: 5px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.advertisingText {
+    position: relative;
+    top: 300px;
+    left: 150px;
+}
+
+.advertisingText p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.allInfoHookahs .orderHookahs {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.orderHookahs button {
+    position: relative;
+    display: block;
+    width: 225px;
+    padding: 12px 9px 12px 9px;
+    border: 1px solid #ffffff;
+    background: transparent;
+
+}
+
+.orderHookahs button a {
+    font-size: 18px;
+    line-height: 4px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.footerHook {
     position: relative;
     display: table;
     width: 100%;
-    top: 20px;
+    top: 107px;
 }
 
-.footer .logoMain {
+.footerHook .logoMain {
     position: relative;
     display: inline-block;
     width: 22%;
     float: left;
 }
 
-.footer p {
+.footerHook p {
     position: relative;
     display: inline-block;
     width: 55%;
     float: left;
 }
 
-.footer .infoTel {
+.footerHook .infoTel {
     position: relative;
     display: inline-block;
     width: 20%;
@@ -232,7 +312,7 @@ p {
     left: 142px;
 }
 
-.account .nikNameMap {
+.account .nikNameHook {
     position: relative;
     display: inline;
     font-size: 18px;
@@ -242,7 +322,7 @@ p {
     left: 137px;
 }
 
-.account .statusMap {
+.account .statusHook {
     position: relative;
     display: inline;
     font-size: 15px;
@@ -251,3 +331,46 @@ p {
     top: 145px;
     left: 35px;
 }
+
+.review {
+    position: relative;
+    display: block;
+    height: 50px;
+    top: 30px;
+    left: 70px;
+}
+
+.review .reviewBlock {
+    display: table;
+    height: 50px;
+}
+
+.reviewCircle {
+    position: absolute;
+}
+
+.reviewCircle .circleRev {
+    position: relative;
+    margin-top: 4px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.reviewSquare {
+    position: relative;
+    left: 20px;
+
+}
+
+.reviewSquare .squareRev {
+    margin-top: 5px;
+    position: relative;
+    width: 37px;
+    height: 14px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+

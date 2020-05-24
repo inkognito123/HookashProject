@@ -32,10 +32,30 @@ class Hook extends React.Component {
                             <NavLink to="/"><img src={speaker} alt=""/></NavLink>
                         </div>
                     </div>
-                    <div className="">
-
+                    <div className="allInfoHookahs">
+                        <div className="scrollInfo">
+                            <div className="advertisingHookahs">
+                                <div className="nameHookah">
+                                    <h2>GOLDEN HOOKAHS</h2>
+                                </div>
+                                <div className="advertising">
+                                    <h3>ADVERTISING</h3>
+                                </div>
+                                <div className="advertisingText">
+                                    <p>The European Data Protection Board (the ‘Board’) is hereby established as a body of the Union and shall have<br/> legal personality.<br/>
+                                        The Board shall be represented by its Chair.<br/>
+                                        The Board shall be composed of the head of one supervisory authority of each Member State and of the European <br/> Data Protection Supervisor, or their respective representatives. <br/>
+                                        Where in a Member State more than one supervisory authority is responsible for monitoring the application <br/> of the provisions pursuant to this Regulation, a joint representative shall be appointed in accordance with <br/> that Member State’s law. <br/>
+                                        1The Commission shall have the right to participate in the activities and meetings of the Board without voting <br/> right. 2The Commission shall designate a representative. 3The Chair of the Board shall communicate to the <br/> Commission the activities of the Board. <br/>
+                                        In the cases referred to in Article 65, the European Data Protection Supervisor shall have voting rights only <br/> on decisions which concern principles and rules applicable to the Union institutions, bodies, offices and <br/> agencies which correspond in substance to those of this</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="orderHookahs">
+                            <button><NavLink to="/">ORDER A HOOKAHS</NavLink></button>
+                        </div>
                     </div>
-                    <div className="footer">
+                    <div className="footerHook">
                         <div className="logoMain">
                             <img className="logo" src={logo} alt=""/>
                             <span className="promo">RAMSIDER</span>
@@ -66,8 +86,59 @@ class Hook extends React.Component {
                             <NavLink to="/"><img src="" alt=""/></NavLink>
                         </div>
                         <div className="online"></div>
-                        <span className="nikNameMap">Tim Kaleniuk</span>
-                        <span className="statusMap">premium</span>
+                        <span className="nikNameHook">Tim Kaleniuk</span>
+                        <span className="statusHook">premium</span>
+                    </div>
+                </div>
+                <div className="infoAll">
+                    <div className="scrollList">
+                        <div className="hookahsBlock1">
+                            <div className="nameHookahs">
+                                <span>GOLDEN HOOKAHS</span>
+                                <span>HOOKAHS</span>
+                            </div>
+                            <div className="infoText">
+                                <p>Bolshaya Andronievskaya street, 23 8 <br/>
+                                    Floor, attic; end entrance <br/>
+                                    Moscow, Russia, 109147</p>
+                            </div>
+                            <div className="ratingArea1">
+                                <input type="radio" id="star1" name="rating" value="1"/>
+                                <label htmlFor="star1" title="Оценка 1"></label>
+                                <input type="radio" id="star2" name="rating" value="2"/>
+                                <label htmlFor="star2" title="Оценка 2"></label>
+                                <input type="radio" id="star3" name="rating" value="3"/>
+                                <label htmlFor="star3" title="Оценка 3"></label>
+                            </div>
+                            <div className="infoHookahs">
+                                <span>electronic hookahs</span>
+                                <span>12</span>
+                            </div>
+                            <div className="telInfo">
+                                <img className="tel" src={tel} alt=""/>
+                                <span>+7 495 162-67-62</span>
+                            </div>
+                            <div className="order">
+                                <button><NavLink to="/">ORDER A HOOKAHS</NavLink></button>
+                            </div>
+                        </div>
+                        <div className="review">
+                            <div className="reviewBlock">
+                                <div className="reviewCircle">
+                                    <div className="circleRev"></div>
+                                    <div className="circleRev"></div>
+                                    <div className="circleRev"></div>
+                                </div>
+                                <div className="reviewSquare">
+                                    <div className="squareRev"></div>
+                                    <div className="squareRev"></div>
+                                    <div className="squareRev"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4>REVIEWS</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

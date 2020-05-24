@@ -69,21 +69,6 @@ class Mapp extends React.Component {
                     <div className="codMap">
                         <YMaps>
                             <Map state={this.state} width="100%" height="100%">
-                                <Placemark
-                                    geometry={{
-                                        coordinates: mapState.center,
-                                    }}
-                                    properties={{
-                                        hintContent: 'Собственный значок метки',
-                                        balloonContent: 'Это красивая метка',
-                                    }}
-                                    options={{
-                                        iconLayout: 'default#image',
-                                        iconImageHref: logotip,
-                                        iconImageSize: [30, 42],
-                                        iconImageOffset: [-3, -42],
-                                    }}
-                                />
                                 <ListBox data={{content: 'Choose hookahs'}}>
                                     {hookahs.map(hookahs =>
                                         <ListBoxItem
