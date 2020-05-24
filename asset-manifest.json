@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/diplom/static/css/main.ae9cbee1.chunk.css",
-    "main.js": "/diplom/static/js/main.3a7ad3d0.chunk.js",
-    "main.js.map": "/diplom/static/js/main.3a7ad3d0.chunk.js.map",
+    "main.js": "/diplom/static/js/main.4e7a0688.chunk.js",
+    "main.js.map": "/diplom/static/js/main.4e7a0688.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.4b263142.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.4b263142.js.map",
-    "static/js/2.b93e5a72.chunk.js": "/diplom/static/js/2.b93e5a72.chunk.js",
-    "static/js/2.b93e5a72.chunk.js.map": "/diplom/static/js/2.b93e5a72.chunk.js.map",
+    "static/js/2.b010703f.chunk.js": "/diplom/static/js/2.b010703f.chunk.js",
+    "static/js/2.b010703f.chunk.js.map": "/diplom/static/js/2.b010703f.chunk.js.map",
     "index.html": "/diplom/index.html",
-    "precache-manifest.a0ea9c6e4878e7d68e8871f9e36cfab0.js": "/diplom/precache-manifest.a0ea9c6e4878e7d68e8871f9e36cfab0.js",
+    "precache-manifest.51e096d61486e1602ba309de39981427.js": "/diplom/precache-manifest.51e096d61486e1602ba309de39981427.js",
     "service-worker.js": "/diplom/service-worker.js",
     "static/css/main.ae9cbee1.chunk.css.map": "/diplom/static/css/main.ae9cbee1.chunk.css.map",
-    "static/js/2.b93e5a72.chunk.js.LICENSE.txt": "/diplom/static/js/2.b93e5a72.chunk.js.LICENSE.txt",
+    "static/js/2.b010703f.chunk.js.LICENSE.txt": "/diplom/static/js/2.b010703f.chunk.js.LICENSE.txt",
     "static/media/Chat active .png": "/diplom/static/media/Chat active .cb0b11f9.png",
     "static/media/stylesheet.css": "/diplom/static/media/DINPro.ce952df0.woff",
     "static/media/Home 128x128.png": "/diplom/static/media/Home 128x128.cf9840ab.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4b263142.js",
-    "static/js/2.b93e5a72.chunk.js",
+    "static/js/2.b010703f.chunk.js",
     "static/css/main.ae9cbee1.chunk.css",
-    "static/js/main.3a7ad3d0.chunk.js"
+    "static/js/main.4e7a0688.chunk.js"
   ]
 }
