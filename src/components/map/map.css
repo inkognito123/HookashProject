@@ -1,29 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0 auto;
-    padding: 0px;
-    font-family: 'DIN Pro';
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.clear::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 body {
     display: table;
     width: 100%;
@@ -65,21 +39,6 @@ body .rightHalf {
     top: 35px;
 }
 
-.menu li {
-    position: relative;
-    display: inline-block;
-    margin-left: 125px;
-    float: left;
-}
-
-.menu li a {
-    font-size: 20px;
-    line-height: 4px;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: lighter;
-}
-
 .headerMap .setting {
     position: relative;
     display: block;
@@ -94,15 +53,6 @@ body .rightHalf {
     float: left;
     top: 30px;
     left: 60px;
-}
-
-.radio a {
-    position: relative;
-    display: block;
-    font-size: 14px;
-    text-align: right;
-    text-decoration: none;
-    color: #ffffff;
 }
 
 .headerMap .speaker {
@@ -243,31 +193,6 @@ p {
     height: 210px;
 }
 
-.circusProfile .fotoAcc {
-    position: absolute;
-    display: block;
-    width: 150px;
-    height: 150px;
-    border: 2px solid;
-    border-radius: 75px;
-    color: #00fffc;
-    top: 7px;
-    left: 32px;
-}
-
-.circusProfile .online {
-    position: relative;
-    display: block;
-    width: 33px;
-    height: 33px;
-    border: 5px solid;
-    border-color: #292427;
-    border-radius: 16px;
-    background-color: #00fffc;
-    top: 115px;
-    left: 142px;
-}
-
 .account .nikNameMap {
     position: relative;
     display: inline;
@@ -288,6 +213,13 @@ p {
     left: 35px;
 }
 
+.listHookahs .scrollList {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    direction: rtl;
+}
+
 .listHookahs {
     position: relative;
     display: block;
@@ -300,6 +232,7 @@ p {
     height: 270px;
     top: 30px;
     left: 70px;
+    direction: ltr;
 }
 
 .nameHookahs {
@@ -308,20 +241,24 @@ p {
 
 .hookahsBlock1 .nameHookahs span:nth-child(1) {
     display: block;
+    position: relative;
     height: 19px;
     font-size: 24px;
     line-height: 5px;
     color: #ffffff;
+
 }
 
 .hookahsBlock1 .nameHookahs span:nth-child(2) {
     display: block;
+    position: relative;
     height: 15px;
     font-size: 20px;
     line-height: 4px;
     color: #ffffff;
     font-weight: lighter;
     padding-top: 5px;
+
 }
 
 
@@ -462,6 +399,7 @@ p {
     display: block;
     height: 270px;
     margin-top: 30px;
+    direction: ltr;
 }
 
 .hookahsBlock2 .ratingArea2 input:checked ~ label,

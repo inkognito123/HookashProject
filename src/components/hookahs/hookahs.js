@@ -34,21 +34,31 @@ class Hook extends React.Component {
                     </div>
                     <div className="allInfoHookahs">
                         <div className="scrollInfo">
-                            <div className="advertisingHookahs">
-                                <div className="nameHookah">
-                                    <h2>GOLDEN HOOKAHS</h2>
-                                </div>
-                                <div className="advertising">
-                                    <h3>ADVERTISING</h3>
-                                </div>
-                                <div className="advertisingText">
-                                    <p>The European Data Protection Board (the ‘Board’) is hereby established as a body of the Union and shall have<br/> legal personality.<br/>
-                                        The Board shall be represented by its Chair.<br/>
-                                        The Board shall be composed of the head of one supervisory authority of each Member State and of the European <br/> Data Protection Supervisor, or their respective representatives. <br/>
-                                        Where in a Member State more than one supervisory authority is responsible for monitoring the application <br/> of the provisions pursuant to this Regulation, a joint representative shall be appointed in accordance with <br/> that Member State’s law. <br/>
-                                        1The Commission shall have the right to participate in the activities and meetings of the Board without voting <br/> right. 2The Commission shall designate a representative. 3The Chair of the Board shall communicate to the <br/> Commission the activities of the Board. <br/>
-                                        In the cases referred to in Article 65, the European Data Protection Supervisor shall have voting rights only <br/> on decisions which concern principles and rules applicable to the Union institutions, bodies, offices and <br/> agencies which correspond in substance to those of this</p>
-                                </div>
+                            <div className="nameHookah">
+                                <h2>GOLDEN HOOKAHS</h2>
+                            </div>
+                            <div className="advertising">
+                                <h3>ADVERTISING</h3>
+                            </div>
+                            <div className="advertisingText">
+                                <p>The European Data Protection Board (the ‘Board’) is hereby established as a body of
+                                    the Union and shall have<br/> legal personality. <br/>
+                                    The Board shall be represented by its Chair.<br/>
+                                    The Board shall be composed of the head of one supervisory authority of each Member
+                                    State and of the <br/> European Data Protection Supervisor, or their respective
+                                    representatives. <br/>
+                                    Where in a Member State more than one supervisory authority is responsible for
+                                    monitoring the application <br/> of the provisions pursuant to this Regulation, a
+                                    joint representative shall be appointed in accordance with <br/> that Member State’s
+                                    law. <br/>
+                                    1The Commission shall have the right to participate in the activities and meetings
+                                    of the Board without voting <br/> right. 2The Commission shall designate a
+                                    representative. 3The Chair of the Board shall communicate to the <br/> Commission
+                                    the activities of the Board. <br/>
+                                    In the cases referred to in Article 65, the European Data Protection Supervisor
+                                    shall have voting rights only <br/> on decisions which concern principles and rules
+                                    applicable to the Union institutions, bodies, offices and <br/> agencies which
+                                    correspond in substance to those of this</p>
                             </div>
                         </div>
                         <div className="orderHookahs">

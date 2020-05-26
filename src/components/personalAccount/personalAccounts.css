@@ -146,6 +146,7 @@ body .Fon img {
     position: relative;
     display: table-cell;
     width: 33%;
+    float: left;
 }
 
 .circW .circleW {
@@ -732,32 +733,12 @@ p {
 
 }
 
-/*::-webkit-scrollbar-button {
-    background-image:url('../../../src/img/png/Rectangle .png');
-    background-repeat:no-repeat;
-    width:20px;
-    height:0px
-}
 
-::-webkit-scrollbar-track {
-    background-color:#333333;
-}
 
-::-webkit-scrollbar-thumb {
-    background-image:url('../../../src/img/png/Rectangle .png');
-    background-position:center;
-    background-repeat:no-repeat;
-}
 
-::-webkit-resizer{
-    background-repeat:no-repeat;
-    width:7px;
-    height:0px
-}
 
-::-webkit-scrollbar{
-    width: 2px;
-}*/
+
+
 
 .chatik .headChat {
     position: relative;
@@ -861,4 +842,139 @@ p {
     text-decoration: none;
     color: #ffffff;
     font-weight: normal;
+}
+
+@media screen and (max-width: 1440px) {
+    .body {
+        width: 1440px;
+    }
+
+    .header .home {
+        left: 20px;
+    }
+
+    .menu li {
+        margin-left: 60px;
+        float: left;
+    }
+
+    .menu li a {
+        font-size: 18px;
+        line-height: 3px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: lighter;
+    }
+
+    .setting {
+        left: 6px;
+    }
+
+    .radio {
+        left: 20px;
+    }
+
+    .radio a {
+        font-size: 12px;
+    }
+
+    .speaker img {
+        height: 72px;
+        width: 72px;
+    }
+
+    .title h1 {
+        top: 15px;
+        left: -100px;
+        height: 35px;
+        font-size: 20px;
+        line-height: 4px;
+    }
+
+    .circW .circleW {
+        margin-left: 40px;
+    }
+
+    .circW .circleW1 {
+        margin-left: 40px;
+    }
+
+    .circR .circleR {
+        margin-left: 20px;
+    }
+
+    .circR .circleR1 {
+        margin-left: 20px;
+    }
+
+    .circB .circleB {
+        margin-left: 5px;
+    }
+
+    .circB .circleB1 {
+        margin-left: 5px;
+    }
+
+    .circW  .timeNumber {
+        margin-left: 145px;
+    }
+
+    .circW .timeWord {
+        margin-left: 215px;
+    }
+
+    .circR .powerNumber {
+        margin-left: 125px;
+    }
+
+    .circR .powerWord {
+        margin-left: 200px;
+    }
+
+    .circB .temperatureNumber {
+        margin-left: 125px;
+    }
+
+    .circB .temperatureWord {
+        margin-left: 175px;
+    }
+
+    .smokingTime {
+        margin-left: 140px;
+    }
+
+    .preferredPower {
+        margin-left: 105px;
+    }
+
+    .preferredTemperature {
+        margin-left: 65px;
+    }
+
+
+    .circusProfile .fotoAcc {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        top: 7px;
+        left: 20px;
+    }
+
+    .circusProfile .online {
+        width: 26px;
+        height: 26px;
+        border: 5px solid;
+        border-radius: 13px;
+        top: 95px;
+        left: 110px;
+    }
+
+    .brick {
+        left: 240px;
+    }
+
+    .account .menu {
+        left: 150px;
+        top: 8px;
+    }
 }
