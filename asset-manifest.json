@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/diplom/static/css/main.ae9cbee1.chunk.css",
-    "main.js": "/diplom/static/js/main.4e7a0688.chunk.js",
-    "main.js.map": "/diplom/static/js/main.4e7a0688.chunk.js.map",
+    "main.css": "/diplom/static/css/main.e673ca7d.chunk.css",
+    "main.js": "/diplom/static/js/main.0ffc44b1.chunk.js",
+    "main.js.map": "/diplom/static/js/main.0ffc44b1.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.4b263142.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.4b263142.js.map",
     "static/js/2.b010703f.chunk.js": "/diplom/static/js/2.b010703f.chunk.js",
     "static/js/2.b010703f.chunk.js.map": "/diplom/static/js/2.b010703f.chunk.js.map",
     "index.html": "/diplom/index.html",
-    "precache-manifest.51e096d61486e1602ba309de39981427.js": "/diplom/precache-manifest.51e096d61486e1602ba309de39981427.js",
+    "precache-manifest.f54fe25ea404471526906547843bd552.js": "/diplom/precache-manifest.f54fe25ea404471526906547843bd552.js",
     "service-worker.js": "/diplom/service-worker.js",
-    "static/css/main.ae9cbee1.chunk.css.map": "/diplom/static/css/main.ae9cbee1.chunk.css.map",
+    "static/css/main.e673ca7d.chunk.css.map": "/diplom/static/css/main.e673ca7d.chunk.css.map",
     "static/js/2.b010703f.chunk.js.LICENSE.txt": "/diplom/static/js/2.b010703f.chunk.js.LICENSE.txt",
     "static/media/Chat active .png": "/diplom/static/media/Chat active .cb0b11f9.png",
     "static/media/stylesheet.css": "/diplom/static/media/DINPro.ce952df0.woff",
     "static/media/Home 128x128.png": "/diplom/static/media/Home 128x128.cf9840ab.png",
     "static/media/Layer7.jpg": "/diplom/static/media/Layer7.6c22ac2d.jpg",
     "static/media/personalAccounts.css": "/diplom/static/media/Navigation right 128x128.114f1e83.png",
+    "static/media/hookahs.css": "/diplom/static/media/Rectangle .7544f3b1.png",
     "static/media/SETTINGS_48x48-32.png": "/diplom/static/media/SETTINGS_48x48-32.c7e1ed8e.png",
     "static/media/fon.jpg": "/diplom/static/media/fon.8fbdda33.jpg",
     "static/media/logo-ramsmobile.png": "/diplom/static/media/logo-ramsmobile.aedb435a.png",
@@ -27,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b263142.js",
     "static/js/2.b010703f.chunk.js",
-    "static/css/main.ae9cbee1.chunk.css",
-    "static/js/main.4e7a0688.chunk.js"
+    "static/css/main.e673ca7d.chunk.css",
+    "static/js/main.0ffc44b1.chunk.js"
   ]
 }

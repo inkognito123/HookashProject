@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fba99746e094a1e3c45ed3b028fdfd68",
+    "revision": "523f7e5e58e16ba4a54ea230dc67a17d",
     "url": "/diplom/index.html"
   },
   {
-    "revision": "c069cdf345c7c6f18756",
-    "url": "/diplom/static/css/main.ae9cbee1.chunk.css"
+    "revision": "3b29834e6f29826364a2",
+    "url": "/diplom/static/css/main.e673ca7d.chunk.css"
   },
   {
     "revision": "b080277b9b39cf1c137f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/diplom/static/js/2.b010703f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c069cdf345c7c6f18756",
-    "url": "/diplom/static/js/main.4e7a0688.chunk.js"
+    "revision": "3b29834e6f29826364a2",
+    "url": "/diplom/static/js/main.0ffc44b1.chunk.js"
   },
   {
     "revision": "167730d98551b4e3e898",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "114f1e8316f07bc77f880563b1f79990",
     "url": "/diplom/static/media/Navigation right 128x128.114f1e83.png"
+  },
+  {
+    "revision": "7544f3b1d0c9478d476ed3da19714d9f",
+    "url": "/diplom/static/media/Rectangle .7544f3b1.png"
   },
   {
     "revision": "c7e1ed8ed761d5afced2bc1420675cef",
