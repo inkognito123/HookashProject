@@ -105,86 +105,13 @@ body .rightHalf {
     top: 140px;
 }
 
-.footerMap .logoMain {
-    position: relative;
-    display: inline-block;
-    width: 22%;
-    float: left;
-}
 
-.footerMap p {
-    position: relative;
-    display: inline-block;
-    width: 55%;
-    float: left;
-}
-
-.footerMap .infoTel {
-    position: relative;
-    display: inline-block;
-    width: 20%;
-    float: right;
-}
 
 p {
     font-size: 9px;
     color: #ffffff;
     text-align: center;
     top: 10px;
-}
-
-.logoMain img {
-    position: absolute;
-    display: block;
-    left: 145px;
-    top: 10px;
-}
-
-.logoMain .promo {
-    position: relative;
-    display: block;
-    font-size: 14px;
-    line-height: 3px;
-    color: #ffffff;
-    top: 30px;
-    left: 210px;
-}
-
-.logoMain .variant {
-    position: relative;
-    display: block;
-    font-size: 8px;
-    line-height: 2px;
-    color: #ffffff;
-    top: 40px;
-    left: 210px;
-}
-
-.infoTel .web {
-    position: relative;
-    display: block;
-    font-size: 16px;
-    text-decoration: none;
-    color: #ffffff;
-    top: 10px;
-    margin-left: 5px;
-}
-
-.infoTel img {
-    position: absolute;
-    display: block;
-    top: 35px;
-    margin-left: 5px;
-}
-
-.infoTel .callTel {
-    position: relative;
-    display: block;
-    font-size: 14px;
-    text-decoration: none;
-    color: #ffffff;
-    top: 20px;
-    margin-left: 70px;
 }
 
 .account {

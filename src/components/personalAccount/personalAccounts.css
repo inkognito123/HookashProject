@@ -551,14 +551,14 @@ body .Fon img {
 .footer .logoMain {
     position: relative;
     display: inline-block;
-    width: 22%;
+    width: 20%;
     float: left;
 }
 
 .footer p {
     position: relative;
     display: inline-block;
-    width: 55%;
+    width: 60%;
     float: left;
 }
 
@@ -566,10 +566,10 @@ body .Fon img {
     position: relative;
     display: inline-block;
     width: 20%;
-    float: right;
+    float: left;
 }
 
-p {
+.footer p {
     font-size: 9px;
     color: #ffffff;
     text-align: center;
@@ -611,6 +611,7 @@ p {
     color: #ffffff;
     top: 10px;
     margin-left: 5px;
+    width: 170px;
 }
 
 .infoTel img {
@@ -628,6 +629,7 @@ p {
     color: #ffffff;
     top: 20px;
     margin-left: 70px;
+    width: 110px;
 }
 
 .account {
@@ -845,7 +847,8 @@ p {
 }
 
 @media screen and (max-width: 1440px) {
-    .body {
+
+    body {
         width: 1440px;
     }
 
@@ -889,6 +892,22 @@ p {
         height: 35px;
         font-size: 20px;
         line-height: 4px;
+    }
+
+    .circle {
+        display: table;
+        width: 1152px;
+        height: 390px;
+        margin-top: 45px;
+    }
+
+    .circle .circW,
+    .circR,
+    .circB {
+        position: relative;
+        display: table-cell;
+        width: 33%;
+        float: left;
     }
 
     .circW .circleW {
@@ -949,6 +968,171 @@ p {
 
     .preferredTemperature {
         margin-left: 65px;
+    }
+
+    .nL h1 {
+        position: relative;
+        display: block;
+        font-size: 23px;
+        line-height: 5px;
+        color: #ffffff;
+        font-weight: normal;
+        top: 18px;
+    }
+
+    .nL h2 {
+        position: relative;
+        display: block;
+        font-size: 23px;
+        line-height: 5px;
+        color: #ffffff;
+        font-weight: normal;
+        top: 46px;
+    }
+
+    .findHookahs {
+        left: 36px;
+    }
+
+    .findHookahs .choice1 {
+        width: 275px;
+    }
+
+    .circusLevel .circusL {
+        left: 40px;
+    }
+
+    .circusLevel .circusL1 {
+        left: 40px;
+    }
+
+    .circusLevel .timeWord1 {
+        left: 65px;
+    }
+
+    .circusLevel .timeNumber1 {
+        left: 105px;
+    }
+
+    .favoriteHookahs h2 {
+        margin-left: 15px;
+    }
+
+    .square {
+        width: 275px;
+        left: 12px;
+    }
+
+    .title1 {
+        margin-left: 25px;
+    }
+
+    .name1 {
+        margin-left: 25px;
+    }
+
+    .name2 {
+        margin-left: 25px;
+    }
+
+    .findTabacco {
+        margin-left: 15px;
+    }
+
+    .findTabacco .choice2 {
+        width: 275px;
+    }
+
+    .moreInfo .info a {
+        position: relative;
+        display: inline;
+        font-size: 15px;
+        line-height: 3px;
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .footer .logoMain {
+        position: relative;
+        display: inline-block;
+        width: 15%;
+        float: left;
+    }
+
+    .footer p {
+        position: relative;
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+
+    .footer .infoTel {
+        position: relative;
+        display: inline-block;
+        width: 25%;
+        float: left;
+    }
+
+    .logoMain img {
+        position: absolute;
+        display: block;
+        left: 35px;
+        top: 10px;
+    }
+
+    .logoMain .promo {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        line-height: 3px;
+        color: #ffffff;
+        top: 30px;
+        left: 100px;
+    }
+
+    .logoMain .variant {
+        position: relative;
+        display: block;
+        font-size: 8px;
+        line-height: 2px;
+        color: #ffffff;
+        top: 40px;
+        left: 100px;
+    }
+
+    .footer p {
+        font-size: 7px;
+        color: #ffffff;
+        text-align: center;
+        top: 10px;
+    }
+
+    .infoTel .web {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        text-decoration: none;
+        color: #ffffff;
+        top: 10px;
+        margin-left: 5px;
+    }
+
+    .infoTel img {
+        position: absolute;
+        display: block;
+        top: 35px;
+        margin-left: 5px;
+    }
+
+    .infoTel .callTel {
+        position: relative;
+        display: block;
+        font-size: 13px;
+        text-decoration: none;
+        color: #ffffff;
+        top: 20px;
+        margin-left: 60px;
     }
 
 
