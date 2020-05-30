@@ -14,7 +14,6 @@ class PersAcc extends React.Component {
     render() {
         return (
             <body>
-            <div className="Fon"><img src={Fon} alt="/"/></div>
             <div className="rightHalf">
                 <div className="mainWindow">
                     <div className="header">

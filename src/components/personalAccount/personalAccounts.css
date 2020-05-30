@@ -43,10 +43,15 @@ body .rightHalf {
     float: right;
 }
 
-body .Fon img {
+body {
     position: absolute;
     top: 0px;
     left: 0px;
+    background: url(../../../src/img/jpg/fon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -346,6 +351,7 @@ body .Fon img {
     line-height: 4px;
     color: #ffffff;
     bottom: 20px;
+    float: left;
 }
 
 .findHookahs .choice1 {
@@ -361,6 +367,8 @@ body .Fon img {
     line-height: 18px;
     color: #c0c0c0;
     background: url("../../../src/img/png/Navigation right 128x128.png") 92% / 8% no-repeat;
+    float: left;
+    clear: both;
 }
 
 .nL,
@@ -379,6 +387,7 @@ body .Fon img {
     color: #ffffff;
     font-weight: normal;
     top: 18px;
+    float: left;
 }
 
 .nL h2 {
@@ -389,6 +398,8 @@ body .Fon img {
     color: #ffffff;
     font-weight: normal;
     top: 46px;
+    float: left;
+    clear: both;
 }
 
 .circusLevel .circusL {
@@ -431,6 +442,8 @@ body .Fon img {
     font-weight: lighter;
     top: 155px;
     left: 165px;
+    float: left;
+    clear: both;
 }
 
 .circusLevel .timeNumber1 {
@@ -443,6 +456,8 @@ body .Fon img {
     font-weight: lighter;
     top: 175px;
     left: 205px;
+    float: left;
+    clear: both;
 }
 
 .favoriteHookahs h2 {
@@ -514,6 +529,8 @@ body .Fon img {
     line-height: 4px;
     color: #ffffff;
     bottom: 20px;
+    float: left;
+
 }
 
 .findTabacco .choice2 {
@@ -529,6 +546,8 @@ body .Fon img {
     line-height: 18px;
     color: #c0c0c0;
     background: url("../../../src/img/png/Navigation right 128x128.png") 92% / 8% no-repeat;
+    float: left;
+    clear: both;
 }
 
 .moreInfo .info a {
@@ -539,6 +558,8 @@ body .Fon img {
     color: #ffffff;
     text-decoration: none;
     left: 48%;
+    float: left;
+    clear: both;
 }
 
 .footer {
@@ -611,7 +632,7 @@ body .Fon img {
     color: #ffffff;
     top: 10px;
     margin-left: 5px;
-    width: 170px;
+    float: left;
 }
 
 .infoTel img {
@@ -619,6 +640,7 @@ body .Fon img {
     display: block;
     top: 35px;
     margin-left: 5px;
+    float: left;
 }
 
 .infoTel .callTel {
@@ -629,7 +651,8 @@ body .Fon img {
     color: #ffffff;
     top: 20px;
     margin-left: 70px;
-    width: 110px;
+    float: left;
+    clear: both;
 }
 
 .account {
@@ -848,9 +871,7 @@ body .Fon img {
 
 @media screen and (max-width: 1440px) {
 
-    body {
-        width: 1440px;
-    }
+
 
     .header .home {
         left: 20px;
@@ -888,26 +909,10 @@ body .Fon img {
 
     .title h1 {
         top: 15px;
-        left: -100px;
+        left: -40px;
         height: 35px;
         font-size: 20px;
         line-height: 4px;
-    }
-
-    .circle {
-        display: table;
-        width: 1152px;
-        height: 390px;
-        margin-top: 45px;
-    }
-
-    .circle .circW,
-    .circR,
-    .circB {
-        position: relative;
-        display: table-cell;
-        width: 33%;
-        float: left;
     }
 
     .circW .circleW {
@@ -971,23 +976,11 @@ body .Fon img {
     }
 
     .nL h1 {
-        position: relative;
-        display: block;
-        font-size: 23px;
-        line-height: 5px;
-        color: #ffffff;
-        font-weight: normal;
-        top: 18px;
+        left: 60px;
     }
 
     .nL h2 {
-        position: relative;
-        display: block;
-        font-size: 23px;
-        line-height: 5px;
-        color: #ffffff;
-        font-weight: normal;
-        top: 46px;
+        left: 105px;
     }
 
     .findHookahs {
@@ -999,19 +992,19 @@ body .Fon img {
     }
 
     .circusLevel .circusL {
-        left: 40px;
+        left: 20px;
     }
 
     .circusLevel .circusL1 {
-        left: 40px;
+        left: 20px;
     }
 
     .circusLevel .timeWord1 {
-        left: 65px;
+        left: 45px;
     }
 
     .circusLevel .timeNumber1 {
-        left: 105px;
+        left: 85px;
     }
 
     .favoriteHookahs h2 {
@@ -1044,34 +1037,7 @@ body .Fon img {
     }
 
     .moreInfo .info a {
-        position: relative;
-        display: inline;
-        font-size: 15px;
-        line-height: 3px;
-        color: #ffffff;
-        text-decoration: none;
-
-    }
-
-    .footer .logoMain {
-        position: relative;
-        display: inline-block;
-        width: 15%;
-        float: left;
-    }
-
-    .footer p {
-        position: relative;
-        display: inline-block;
-        width: 50%;
-        float: left;
-    }
-
-    .footer .infoTel {
-        position: relative;
-        display: inline-block;
-        width: 25%;
-        float: left;
+        left: 43%;
     }
 
     .logoMain img {
@@ -1092,47 +1058,20 @@ body .Fon img {
     }
 
     .logoMain .variant {
-        position: relative;
-        display: block;
-        font-size: 8px;
-        line-height: 2px;
-        color: #ffffff;
-        top: 40px;
         left: 100px;
     }
 
     .footer p {
         font-size: 7px;
-        color: #ffffff;
-        text-align: center;
-        top: 10px;
     }
 
     .infoTel .web {
-        position: relative;
-        display: block;
         font-size: 14px;
-        text-decoration: none;
-        color: #ffffff;
-        top: 10px;
-        margin-left: 5px;
-    }
-
-    .infoTel img {
-        position: absolute;
-        display: block;
-        top: 35px;
-        margin-left: 5px;
     }
 
     .infoTel .callTel {
-        position: relative;
-        display: block;
         font-size: 13px;
-        text-decoration: none;
-        color: #ffffff;
-        top: 20px;
-        margin-left: 60px;
+        margin-left: 55px;
     }
 
 

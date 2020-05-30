@@ -105,7 +105,26 @@ body .rightHalf {
     top: 140px;
 }
 
+.footerMap .logoMain {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
 
+.footerMap p {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
+
+.footerMap .infoTel {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: right;
+}
 
 p {
     font-size: 9px;
