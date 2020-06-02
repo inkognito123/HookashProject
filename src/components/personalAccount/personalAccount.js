@@ -1,7 +1,6 @@
 import React from "react";
 import './personalAccounts.css';
 import '../../fonts/stylesheet.css';
-import Fon from '../../img/jpg/fon.jpg';
 import home from '../../img/png/Home 128x128.png';
 import setting from '../../img/png/SETTINGS_48x48-32.png';
 import speaker from '../../img/png/qqq.png'
@@ -9,6 +8,7 @@ import logo from '../../img/png/logo-ramsmobile.png'
 import tel from '../../img/png/тел copy.png'
 import chat from '../../img/png/Chat active .png'
 import {NavLink} from "react-router-dom";
+
 
 class PersAcc extends React.Component {
     render() {
@@ -33,7 +33,7 @@ class PersAcc extends React.Component {
                             <NavLink to="/">RAMSIDER <br/> RADIO</NavLink>
                         </div>
                         <div className="speaker">
-                            <NavLink to="/"><img src={speaker} alt=""/></NavLink>
+                            <NavLink to="/#zatemnenie"><img src={speaker} alt=""/></NavLink>
                         </div>
                     </div>
                     <div className="title">

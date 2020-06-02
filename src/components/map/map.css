@@ -493,3 +493,22 @@ p {
     line-height: 4px;
     color: #ffffff;
 }
+
+@media screen and (max-width: 1440px) {
+
+    .headerMap .layer img {
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        width: 990px;
+        height: 300px;
+    }
+
+    .codMap {
+        position: relative;
+        top: 110px;
+        left: 76px;
+        width: 990px;
+        height: 600px;
+    }
+}

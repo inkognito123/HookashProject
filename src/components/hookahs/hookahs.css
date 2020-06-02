@@ -172,8 +172,6 @@ body .rightHalf {
     top: 107px;
 }
 
-
-
 p {
     font-size: 9px;
     color: #ffffff;
@@ -181,11 +179,7 @@ p {
     top: 10px;
 }
 
-.account {
-    position: relative;
-    display: block;
-    height: 210px;
-}
+
 
 .account .nikNameHook {
     position: relative;

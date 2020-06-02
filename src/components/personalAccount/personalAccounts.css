@@ -25,9 +25,9 @@ ul {
 }
 
 body {
-     display: table;
-     width: 100%;
- }
+    display: table;
+    width: 100%;
+}
 
 body .leftHalf {
     position: relative;
@@ -162,8 +162,8 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #d6d6d6;
-    -moz-box-shadow:0 0 40px #d6d6d6;
-    -webkit-box-shadow:0 0 40px #d6d6d6;
+    -moz-box-shadow: 0 0 40px #d6d6d6;
+    -webkit-box-shadow: 0 0 40px #d6d6d6;
     box-shadow: 0 0 40px #d6d6d6;
     margin-left: 210px;
 }
@@ -176,8 +176,8 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #d6d6d6;
-    -moz-box-shadow:0 0 20px #d6d6d6;
-    -webkit-box-shadow:0 0 20px #d6d6d6;
+    -moz-box-shadow: 0 0 20px #d6d6d6;
+    -webkit-box-shadow: 0 0 20px #d6d6d6;
     box-shadow: 0 0 20px #d6d6d6 inset;
     margin-left: 210px;
 }
@@ -190,8 +190,8 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #ff007e;
-    -moz-box-shadow:0 0 40px #ff007e;
-    -webkit-box-shadow:0 0 40px #ff007e;
+    -moz-box-shadow: 0 0 40px #ff007e;
+    -webkit-box-shadow: 0 0 40px #ff007e;
     box-shadow: 0 0 40px #ff007e;
     margin-left: 130px;
 }
@@ -204,8 +204,8 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #ff007e;
-    -moz-box-shadow:0 0 20px #ff007e;
-    -webkit-box-shadow:0 0 20px #ff007e;
+    -moz-box-shadow: 0 0 20px #ff007e;
+    -webkit-box-shadow: 0 0 20px #ff007e;
     box-shadow: 0 0 20px #ff007e inset;
     margin-left: 130px;
 }
@@ -217,8 +217,8 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #00fffc;
-    -moz-box-shadow:0 0 40px #00fffc;
-    -webkit-box-shadow:0 0 40px #00fffc;
+    -moz-box-shadow: 0 0 40px #00fffc;
+    -webkit-box-shadow: 0 0 40px #00fffc;
     box-shadow: 0 0 40px #00fffc;
     margin-left: 25px;
 }
@@ -230,13 +230,13 @@ body {
     border: 6px solid;
     border-radius: 142px;
     color: #00fffc;
-    -moz-box-shadow:0 0 20px #00fffc;
-    -webkit-box-shadow:0 0 20px #00fffc;
+    -moz-box-shadow: 0 0 20px #00fffc;
+    -webkit-box-shadow: 0 0 20px #00fffc;
     box-shadow: 0 0 20px #00fffc inset;
     margin-left: 25px;
 }
 
-.circW  .timeNumber {
+.circW .timeNumber {
     position: relative;
     display: block;
     font-size: 41px;
@@ -387,7 +387,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     top: 18px;
-    float: left;
+    text-align: center;
 }
 
 .nL h2 {
@@ -398,8 +398,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     top: 46px;
-    float: left;
-    clear: both;
+    text-align: center;
 }
 
 .circusLevel .circusL {
@@ -412,9 +411,9 @@ body {
     color: #ff007e;
     top: 90px;
     left: 140px;
-    -moz-box-shadow:0 0 20px #ff007e;
-    -webkit-box-shadow:0 0 20px #ff007e;
-    box-shadow:0 0 20px #ff007e;
+    -moz-box-shadow: 0 0 20px #ff007e;
+    -webkit-box-shadow: 0 0 20px #ff007e;
+    box-shadow: 0 0 20px #ff007e;
 }
 
 .circusLevel .circusL1 {
@@ -427,9 +426,9 @@ body {
     color: #ff007e;
     top: 90px;
     left: 140px;
-    -moz-box-shadow:0 0 10px #ff007e;
-    -webkit-box-shadow:0 0 10px #ff007e;
-    box-shadow:0 0 10px #ff007e inset;
+    -moz-box-shadow: 0 0 10px #ff007e;
+    -webkit-box-shadow: 0 0 10px #ff007e;
+    box-shadow: 0 0 10px #ff007e inset;
 }
 
 .circusLevel .timeWord1 {
@@ -594,7 +593,7 @@ body {
     font-size: 9px;
     color: #ffffff;
     text-align: center;
-    top: 10px;
+    top: 30px;
 }
 
 .logoMain img {
@@ -693,7 +692,7 @@ body {
     line-height: 4px;
     color: #ffffff;
     top: 125px;
-    left: 55px;
+    left: 57px;
 }
 
 .account .status {
@@ -757,12 +756,6 @@ body {
 
 
 }
-
-
-
-
-
-
 
 
 .chatik .headChat {
@@ -871,8 +864,6 @@ body {
 
 @media screen and (max-width: 1440px) {
 
-
-
     .header .home {
         left: 20px;
     }
@@ -885,9 +876,6 @@ body {
     .menu li a {
         font-size: 18px;
         line-height: 3px;
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: lighter;
     }
 
     .setting {
@@ -939,7 +927,7 @@ body {
         margin-left: 5px;
     }
 
-    .circW  .timeNumber {
+    .circW .timeNumber {
         margin-left: 145px;
     }
 
@@ -1041,24 +1029,15 @@ body {
     }
 
     .logoMain img {
-        position: absolute;
-        display: block;
-        left: 35px;
-        top: 10px;
+        left: 75px;
     }
 
     .logoMain .promo {
-        position: relative;
-        display: block;
-        font-size: 14px;
-        line-height: 3px;
-        color: #ffffff;
-        top: 30px;
-        left: 100px;
+        left: 140px;
     }
 
     .logoMain .variant {
-        left: 100px;
+        left: 140px;
     }
 
     .footer p {
@@ -1067,13 +1046,17 @@ body {
 
     .infoTel .web {
         font-size: 14px;
+        margin-left: 25px;
     }
 
     .infoTel .callTel {
         font-size: 13px;
-        margin-left: 55px;
+        margin-left: 75px;
     }
 
+    .infoTel img {
+        margin-left: 25px;
+    }
 
     .circusProfile .fotoAcc {
         width: 120px;
@@ -1099,5 +1082,44 @@ body {
     .account .menu {
         left: 150px;
         top: 8px;
+    }
+
+    .account .nikName {
+        left: 28px;
+    }
+
+    .account .status {
+        left: -75px;
+    }
+
+    .chatName {
+        top: 10px;
+        left: 110px;
+    }
+
+    .headChat span:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .headChat span:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .headChat span:nth-child(3) {
+        font-size: 22px;
+    }
+
+    .chatik img {
+        left: -15px;
+        width: 57px;
+        height: 49px;
+    }
+
+    .inputMessage form input {
+        width: 250px;
+    }
+
+    .inputMessage form button {
+        width: 250px;
     }
 }
