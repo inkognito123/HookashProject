@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/diplom/static/css/main.ebaa378b.chunk.css",
-    "main.js": "/diplom/static/js/main.04510e87.chunk.js",
-    "main.js.map": "/diplom/static/js/main.04510e87.chunk.js.map",
+    "main.css": "/diplom/static/css/main.d4fc3e94.chunk.css",
+    "main.js": "/diplom/static/js/main.97218d10.chunk.js",
+    "main.js.map": "/diplom/static/js/main.97218d10.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.4b263142.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.4b263142.js.map",
-    "static/js/2.b80329ca.chunk.js": "/diplom/static/js/2.b80329ca.chunk.js",
-    "static/js/2.b80329ca.chunk.js.map": "/diplom/static/js/2.b80329ca.chunk.js.map",
+    "static/js/2.58f45b6f.chunk.js": "/diplom/static/js/2.58f45b6f.chunk.js",
+    "static/js/2.58f45b6f.chunk.js.map": "/diplom/static/js/2.58f45b6f.chunk.js.map",
     "index.html": "/diplom/index.html",
-    "precache-manifest.eb7447fb07fbc6eb576f764ec587f9ba.js": "/diplom/precache-manifest.eb7447fb07fbc6eb576f764ec587f9ba.js",
+    "precache-manifest.6b232c75527b075ea1254c392d529a47.js": "/diplom/precache-manifest.6b232c75527b075ea1254c392d529a47.js",
     "service-worker.js": "/diplom/service-worker.js",
-    "static/css/main.ebaa378b.chunk.css.map": "/diplom/static/css/main.ebaa378b.chunk.css.map",
-    "static/js/2.b80329ca.chunk.js.LICENSE.txt": "/diplom/static/js/2.b80329ca.chunk.js.LICENSE.txt",
+    "static/css/main.d4fc3e94.chunk.css.map": "/diplom/static/css/main.d4fc3e94.chunk.css.map",
+    "static/js/2.58f45b6f.chunk.js.LICENSE.txt": "/diplom/static/js/2.58f45b6f.chunk.js.LICENSE.txt",
     "static/media/Chat active .png": "/diplom/static/media/Chat active .cb0b11f9.png",
     "static/media/stylesheet.css": "/diplom/static/media/DINPro.ce952df0.woff",
     "static/media/Home 128x128.png": "/diplom/static/media/Home 128x128.cf9840ab.png",
     "static/media/Layer7.jpg": "/diplom/static/media/Layer7.6c22ac2d.jpg",
-    "static/media/personalAccounts.css": "/diplom/static/media/Navigation right 128x128.114f1e83.png",
+    "static/media/personalAccounts.css": "/diplom/static/media/fon.8fbdda33.jpg",
     "static/media/hookahs.css": "/diplom/static/media/Rectangle .7544f3b1.png",
     "static/media/SETTINGS_48x48-32.png": "/diplom/static/media/SETTINGS_48x48-32.c7e1ed8e.png",
-    "static/media/fon.jpg": "/diplom/static/media/fon.8fbdda33.jpg",
     "static/media/logo-ramsmobile.png": "/diplom/static/media/logo-ramsmobile.aedb435a.png",
     "static/media/qqq.png": "/diplom/static/media/qqq.2276d289.png",
     "static/media/map.css": "/diplom/static/media/zvezda.a1774cbb.png",
@@ -27,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4b263142.js",
-    "static/js/2.b80329ca.chunk.js",
-    "static/css/main.ebaa378b.chunk.css",
-    "static/js/main.04510e87.chunk.js"
+    "static/js/2.58f45b6f.chunk.js",
+    "static/css/main.d4fc3e94.chunk.css",
+    "static/js/main.97218d10.chunk.js"
   ]
 }
