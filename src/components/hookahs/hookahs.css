@@ -22,7 +22,7 @@ body .rightHalf {
     position: absolute;
     top: 0px;
     left: 100px;
-    width: 1270px;
+    width: 1250px;
     height: 400px;
 }
 
@@ -150,7 +150,7 @@ body .rightHalf {
 .orderHookahs button {
     position: relative;
     display: block;
-    width: 225px;
+    width: 205px;
     padding: 12px 9px 12px 9px;
     border: 1px solid #ffffff;
     background: transparent;
@@ -172,14 +172,57 @@ body .rightHalf {
     top: 107px;
 }
 
-p {
-    font-size: 9px;
-    color: #ffffff;
-    text-align: center;
-    top: 10px;
+.footerHook .logoMain {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
 }
 
+.footerHook p {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
 
+.footerHook .infoTel {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.footerHook .infoTel .web {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.infoTel img {
+    position: absolute;
+    display: block;
+    top: 35px;
+    margin-left: 5px;
+    float: left;
+}
+
+.infoTel .callTel {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    top: 20px;
+    margin-left: 70px;
+    float: left;
+    clear: both;
+}
 
 .account .nikNameHook {
     position: relative;

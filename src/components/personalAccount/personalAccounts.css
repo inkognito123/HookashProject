@@ -565,7 +565,7 @@ body {
     position: relative;
     display: table;
     width: 100%;
-    top: 20px;
+    top: 37px;
 }
 
 .footer .logoMain {
@@ -587,13 +587,6 @@ body {
     display: inline-block;
     width: 20%;
     float: left;
-}
-
-.footer p {
-    font-size: 9px;
-    color: #ffffff;
-    text-align: center;
-    top: 30px;
 }
 
 .logoMain img {
@@ -621,6 +614,13 @@ body {
     color: #ffffff;
     top: 40px;
     left: 210px;
+}
+
+p {
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    top: 10px;
 }
 
 .infoTel .web {
@@ -753,8 +753,6 @@ body {
     position: relative;
     display: block;
     height: 610px;
-
-
 }
 
 
@@ -897,82 +895,79 @@ body {
 
     .title h1 {
         top: 15px;
-        left: -40px;
+        left: -20px;
         height: 35px;
         font-size: 20px;
         line-height: 4px;
     }
 
     .circW .circleW {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .circW .circleW1 {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .circR .circleR {
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .circR .circleR1 {
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .circB .circleB {
-        margin-left: 5px;
+        margin-left: 25px;
     }
 
     .circB .circleB1 {
-        margin-left: 5px;
+        margin-left: 25px;
     }
 
     .circW .timeNumber {
-        margin-left: 145px;
+        margin-left: 165px;
     }
 
     .circW .timeWord {
-        margin-left: 215px;
+        margin-left: 235px;
     }
 
     .circR .powerNumber {
-        margin-left: 125px;
+        margin-left: 145px;
     }
 
     .circR .powerWord {
-        margin-left: 200px;
+        margin-left: 220px;
     }
 
     .circB .temperatureNumber {
-        margin-left: 125px;
+        margin-left: 145px;
     }
 
     .circB .temperatureWord {
-        margin-left: 175px;
+        margin-left: 195px;
     }
 
     .smokingTime {
-        margin-left: 140px;
+        margin-left: 160px;
     }
 
     .preferredPower {
-        margin-left: 105px;
+        margin-left: 125px;
     }
 
     .preferredTemperature {
-        margin-left: 65px;
+        margin-left: 85px;
     }
 
-    .nL h1 {
-        left: 60px;
-    }
-
-    .nL h2 {
-        left: 105px;
+    .nL,
+    .circusLevel {
+        left: 0px;
     }
 
     .findHookahs {
-        left: 36px;
+        left: 70px;
     }
 
     .findHookahs .choice1 {
@@ -980,44 +975,44 @@ body {
     }
 
     .circusLevel .circusL {
-        left: 20px;
+        left: 110px;
     }
 
     .circusLevel .circusL1 {
-        left: 20px;
+        left: 110px;
     }
 
     .circusLevel .timeWord1 {
-        left: 45px;
+        left: 135px;
     }
 
     .circusLevel .timeNumber1 {
-        left: 85px;
+        left: 175px;
     }
 
     .favoriteHookahs h2 {
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .square {
         width: 275px;
-        left: 12px;
+        left: 42px;
     }
 
     .title1 {
-        margin-left: 25px;
+        margin-left: 55px;
     }
 
     .name1 {
-        margin-left: 25px;
+        margin-left: 55px;
     }
 
     .name2 {
-        margin-left: 25px;
+        margin-left: 55px;
     }
 
     .findTabacco {
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .findTabacco .choice2 {
@@ -1025,7 +1020,7 @@ body {
     }
 
     .moreInfo .info a {
-        left: 43%;
+        left: 45%;
     }
 
     .logoMain img {
@@ -1038,10 +1033,6 @@ body {
 
     .logoMain .variant {
         left: 140px;
-    }
-
-    .footer p {
-        font-size: 7px;
     }
 
     .infoTel .web {

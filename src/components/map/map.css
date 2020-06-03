@@ -22,7 +22,7 @@ body .rightHalf {
     position: absolute;
     top: 0px;
     left: 100px;
-    width: 1270px;
+    width: 1250px;
     height: 400px;
 }
 
@@ -93,7 +93,7 @@ body .rightHalf {
     position: relative;
     top: 110px;
     left: 136px;
-    width: 1270px;
+    width: 1250px;
     height: 600px;
 }
 
@@ -124,13 +124,6 @@ body .rightHalf {
     display: inline-block;
     width: 20%;
     float: right;
-}
-
-p {
-    font-size: 9px;
-    color: #ffffff;
-    text-align: center;
-    top: 10px;
 }
 
 .account {
@@ -192,7 +185,6 @@ p {
     font-size: 24px;
     line-height: 5px;
     color: #ffffff;
-
 }
 
 .hookahsBlock1 .nameHookahs span:nth-child(2) {
@@ -204,7 +196,6 @@ p {
     color: #ffffff;
     font-weight: lighter;
     padding-top: 5px;
-
 }
 
 
@@ -289,7 +280,8 @@ p {
     font-size: 26px;
     line-height: 5px;
     color: #ffffff;
-    margin-left: 185px;
+    float: left;
+    left: 100px;
 }
 
 .hookahsBlock1 .telInfo {
@@ -344,8 +336,9 @@ p {
     position: relative;
     display: block;
     height: 270px;
-    margin-top: 30px;
+    top: 60px;
     direction: ltr;
+    left: 70px;
 }
 
 .hookahsBlock2 .ratingArea2 input:checked ~ label,
@@ -396,14 +389,6 @@ p {
     width: 20px;
 }
 
-.hookahsBlock2 {
-    position: relative;
-    display: block;
-    height: 270px;
-    top: 30px;
-    left: 70px;
-}
-
 .nameHookahs {
     height: 50px;
 }
@@ -425,7 +410,6 @@ p {
     font-weight: lighter;
     padding-top: 5px;
 }
-
 
 .hookahsBlock2 .infoText p {
     display: block;
@@ -459,7 +443,8 @@ p {
     font-size: 26px;
     line-height: 5px;
     color: #ffffff;
-    margin-left: 185px;
+    float: left;
+    left: 100px;
 }
 
 .hookahsBlock2 .telInfo {
@@ -500,7 +485,7 @@ p {
         position: absolute;
         top: 0px;
         left: 40px;
-        width: 990px;
+        width: 980px;
         height: 300px;
     }
 
@@ -508,7 +493,108 @@ p {
         position: relative;
         top: 110px;
         left: 76px;
-        width: 990px;
+        width: 980px;
         height: 600px;
+    }
+
+    .account .nikNameMap {
+        left: 108px;
+    }
+
+    .account .statusMap {
+        left: 5px;
+    }
+
+    .hookahsBlock1 {
+        height: 240px;
+        left: 40px;
+    }
+
+    .hookahsBlock1 .nameHookahs span:nth-child(1) {
+        height: 19px;
+        font-size: 22px;
+    }
+
+    .hookahsBlock1 .nameHookahs span:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hookahsBlock1 .infoText p {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .hookahsBlock1 .ratingArea1 {
+        height: 20px;
+    }
+
+    .hookahsBlock1 .ratingArea1 input:checked ~ label {
+        background-position: 0 -16px;
+    }
+
+    .hookahsBlock1 .infoHookahs span:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .hookahsBlock1 .infoHookahs span:nth-child(2) {
+        font-size: 24px;
+        left: 80px;
+    }
+
+    .hookahsBlock1 .telInfo {
+        height: 40px;
+    }
+
+    .hookahsBlock1 .telInfo img {
+        left: 0px;
+    }
+
+    .telInfo span {
+        font-size: 18px;
+        left: 60px;
+    }
+
+    .order button {
+        width: 200px;
+    }
+
+    .order button a {
+        font-size: 16px;
+    }
+
+    .hookahsBlock2 {
+        height: 240px;
+        left: 40px;
+    }
+
+    .hookahsBlock2 .nameHookahs span:nth-child(1) {
+        height: 19px;
+        font-size: 22px;
+    }
+
+    .hookahsBlock2 .nameHookahs span:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hookahsBlock2 .infoText p {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .hookahsBlock2 .ratingArea2 {
+        height: 20px;
+    }
+
+    .hookahsBlock2 .infoHookahs span:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .hookahsBlock2 .infoHookahs span:nth-child(2) {
+        font-size: 24px;
+        left: 80px;
+    }
+
+    .hookahsBlock2 .ratingArea2 input:checked ~ label {
+        background-position: 0 -15px;
     }
 }

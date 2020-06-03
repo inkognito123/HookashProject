@@ -6,9 +6,9 @@ import setting from '../../img/png/SETTINGS_48x48-32.png';
 import speaker from '../../img/png/qqq.png'
 import logo from '../../img/png/logo-ramsmobile.png'
 import tel from '../../img/png/тел copy.png'
-import logotip from '../../img/png/logotip.png'
+
 import {NavLink} from "react-router-dom";
-import {YMaps, Map, ListBox, ListBoxItem, Placemark} from 'react-yandex-maps';
+import {YMaps, Map, ListBox, ListBoxItem} from 'react-yandex-maps';
 
 
 const mapState = {center: [55.741570, 37.677226], zoom: 18, controls: []};
